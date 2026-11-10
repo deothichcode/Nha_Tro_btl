@@ -1,0 +1,39 @@
+# ---------- Maven ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ---------- Eclipse / STS ----------
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+
+# ---------- NetBeans ----------
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- Hệ điều hành ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Log và file cấu hình riêng từng máy ----------
+*.log
+.env
+application-local.properties
